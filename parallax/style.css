@@ -25,6 +25,11 @@ h2.nobackground {
   font-size: 170%;
 }
 
+::selection {
+  background-color: #e77a66; /* Use your desired color code or name */
+  color: ghostwhite; /* Change the text color inside the selection */
+}
+
 body {
   position: relative;
   margin: 0;

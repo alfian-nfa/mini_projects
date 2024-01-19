@@ -1,0 +1,122 @@
+[
+  {
+    "question": "What language runs in a web browser?",
+    "choices": ["Java", "C", "Python", "JavaScript"],
+    "correctAnswer": "JavaScript"
+  },
+  {
+    "question": "What does CSS stand for?",
+    "choices": ["Central Style Sheets", "Cascading Style Sheets", "Cascading Simple Sheets", "Cars SUVs Sailboats"],
+    "correctAnswer": "Cascading Style Sheets"
+  },
+  {
+    "question": "What does HTML stand for?",
+    "choices": ["Hypertext Markup Language", "Hypertext Markdown Language", "Hyperloop Machine Language", "Helicopters Terminals Motorboats Lamborghinis"],
+    "correctAnswer": "Hypertext Markup Language"
+  },
+  {
+    "question": "What year was JavaScript launched?",
+    "choices": ["1996", "1995", "1994", "none of the above"],
+    "correctAnswer": "1995"
+  },
+  {
+    "question": "Which programming language is commonly used for machine learning and data science?",
+    "choices": ["Java", "R", "Swift", "TypeScript"],
+    "correctAnswer": "R"
+  },
+  {
+    "question": "What is the primary purpose of the SQL language?",
+    "choices": ["Structured Language", "Sequential Query Language", "Standard Query Language", "Scripted Question Language"],
+    "correctAnswer": "Standard Query Language"
+  },
+  {
+    "question": "Which of the following is a version control system used for tracking changes in source code during software development?",
+    "choices": ["CVS", "SVN", "Git", "Mercurial"],
+    "correctAnswer": "Git"
+  },
+  {
+    "question": "In the context of web development, what does the acronym API stand for?",
+    "choices": ["Application Programming Interface", "Advanced Protocol Integration", "Automated Program Interaction", "Application Process Integration"],
+    "correctAnswer": "Application Programming Interface"
+  },
+  {
+    "question": "What is the purpose of the \"elif\" keyword in Python?",
+    "choices": ["Element If", "Used for exception handling", "Else If for conditional branching", "Represents a loop in Python"],
+    "correctAnswer": "Else If for conditional branching"
+  },
+  {
+    "question": "Which markup language is used for creating documents with complex formatting and styling, often used in print media?",
+    "choices": ["HTML", "XML", "LaTeX", "Markdown"],
+    "correctAnswer": "LaTeX"
+  },
+  {
+    "question": "What does the acronym IDE stand for in the context of software development?",
+    "choices": ["Integrated Development Environment", "Interactive Design Environment", "Interface Development Engine", "Intelligent Debugging Environment"],
+    "correctAnswer": "Integrated Development Environment"
+  },
+  {
+    "question": "Which programming language was developed by Microsoft and is commonly used for Windows application development?",
+    "choices": ["C#", "Objective-C", "Ruby", "Kotlin"],
+    "correctAnswer": "C#"
+  },
+  {
+    "question": "What is the purpose of the \"npm\" command in Node.js?",
+    "choices": ["Node Package Manager", "Network Protocol Module", "Node Plugin Manager", "New Project Maker"],
+    "correctAnswer": "Node Package Manager"
+  },
+  {
+    "question": "Which data structure follows the Last In, First Out (LIFO) principle?",
+    "choices": ["Queue", "Stack", "Linked List", "Tree"],
+    "correctAnswer": "Stack"
+  },
+  {
+    "question": "What is the primary function of a firewall in computer networks?",
+    "choices": ["Data Encryption", "Intrusion Detection", "Access Control", "File Compression"],
+    "correctAnswer": "Access Control"
+  },
+  {
+    "question": "Which protocol is used for secure communication over a computer network, often seen in secure website connections?",
+    "choices": ["FTP", "HTTPS", "SNMP", "SMTP"],
+    "correctAnswer": "HTTPS"
+  },
+  {
+    "question": "What is the purpose of the \"docker\" command in containerization technology?",
+    "choices": ["Docking containers together", "Creating new containers", "Managing and interacting with containers", "Removing containers"],
+    "correctAnswer": "Managing and interacting with containers"
+  },
+  {
+    "question": "In object-oriented programming, what is encapsulation?",
+    "choices": ["Binding data and methods into a single unit", "Inheritance of attributes", "Dynamic method dispatch", "Polymorphic behavior"],
+    "correctAnswer": "Binding data and methods into a single unit"
+  },
+  {
+    "question": "What does the acronym URL stand for in the context of web addresses?",
+    "choices": ["Universal Resource Locator", "Uniform Resource Locator", "Unified Resource Locator", "Unique Resource Locator"],
+    "correctAnswer": "Uniform Resource Locator"
+  },
+  {
+    "question": "Which data structure organizes data in a hierarchy with a top-down structure?",
+    "choices": ["Array", "Queue", "Tree", "Linked List"],
+    "correctAnswer": "Tree"
+  },
+  {
+    "question": "What is the purpose of the \"grep\" command in Unix-based operating systems?",
+    "choices": ["Global Replace", "General Regular Expression Parser", "Global Regular Expression Print", "General Replace"],
+    "correctAnswer": "Global Regular Expression Print"
+  },
+  {
+    "question": "Which algorithm is commonly used for sorting elements in an array in ascending or descending order?",
+    "choices": ["Bubble Sort", "Quick Sort", "Merge Sort", "All of the above"],
+    "correctAnswer": "All of the above"
+  },
+  {
+    "question": "What is the purpose of the \"try-except\" block in Python?",
+    "choices": ["Defining a new function", "Error handling and exception catching", "Loop control", "Variable declaration"],
+    "correctAnswer": "Error handling and exception catching"
+  },
+  {
+    "question": "Which database management system is known for its scalability and is commonly used in big data applications?",
+    "choices": ["MySQL", "PostgreSQL", "MongoDB", "Cassandra"],
+    "correctAnswer": "Cassandra"
+  }
+]
