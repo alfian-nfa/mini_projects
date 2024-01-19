@@ -43,3 +43,16 @@ window.addEventListener("scroll", function () {
     layer.style.transform = `translateX(${xPos}px)`;
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Simulate loading delay (you can replace this with your actual loading logic)
+  setTimeout(function () {
+    hideLoadingScreen();
+  }, 2000); // Adjust the time as needed
+});
+
+function hideLoadingScreen() {
+  const loadingScreen = document.getElementById("loadingScreen");
+
+  loadingScreen.style.display = "none";
+}
