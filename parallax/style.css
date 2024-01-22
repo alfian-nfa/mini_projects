@@ -43,7 +43,7 @@ body {
 
 .section,
 .section_layer {
-  height: 100vh;
+  height: clamp(220px, 50vw, 100vh);
 }
 
 .section {
@@ -159,20 +159,4 @@ p.left {
   width: 50px;
   height: 50px;
   animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .section,
-  .section_layer {
-    height: 220px;
-  }
 }
