@@ -56,7 +56,7 @@ body {
   background-position: bottom center;
   background-size: auto 1038px;
   background-repeat: repeat-x;
-  width: 100%;
+  width: 100vw;
   position: absolute;
 }
 
@@ -68,48 +68,42 @@ body {
 
 #layer-0 {
   content: "";
-  width: 100%;
-  height: 100%;
+  width: 100vw;
   background-image: url("assets/img/hill-0.png");
   background-size: cover;
 }
 
 #layer-1 {
   content: "";
-  width: 100%;
-  height: 100%;
+  width: 100vw;
   background-image: url("assets/img/hill-1.png");
   background-size: cover;
 }
 
 #layer-2 {
   content: "";
-  width: 100%;
-  height: 100%;
+  width: 100vw;
   background-image: url("assets/img/hill-2.png");
   background-size: cover;
 }
 
 #layer-3 {
   content: "";
-  width: 100%;
-  height: 100%;
+  width: 100vw;
   background-image: url("assets/img/hill-3.png");
   background-size: cover;
 }
 
 #layer-4 {
   content: "";
-  width: 100%;
-  height: 100%;
+  width: 100vw;
   background-image: url("assets/img/clouds-1.png");
   background-size: cover;
 }
 
 #layer-5 {
   content: "";
-  width: 100%;
-  height: 100%;
+  width: 100vw;
   background-image: url("assets/img/clouds-2.png");
   background-size: cover;
 }
@@ -173,5 +167,12 @@ p.left {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .section,
+  .section_layer {
+    height: 220px;
   }
 }

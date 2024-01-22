@@ -17,6 +17,7 @@ body {
 
 h1 {
   margin: 10px;
+  font-size: clamp(1.25rem, 3vw, 2.375rem);
 }
 
 a {
@@ -29,8 +30,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-block: clamp(20px, 4vw, 40px);
   width: 400px;
-  height: 200px;
   margin: 10px;
   border-radius: 10px;
   box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
@@ -47,5 +48,11 @@ a {
 }
 
 .box h2 {
-  font-size: 45px;
+  font-size: clamp(1.2rem, 3vw, 4rem);
+}
+
+@media only screen and (max-width: 600px) {
+  .box {
+    width: 200px;
+  }
 }
