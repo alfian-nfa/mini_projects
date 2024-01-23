@@ -68,11 +68,22 @@ body {
 
 @media (max-width: 480px) {
   .container {
-    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 75vh;
   }
 
-  .panel:nth-of-type(4),
-  .panel:nth-of-type(5) {
-    display: none;
+  .panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    flex: 1;
+    margin: 15px;
+    position: relative;
+    -webkit-transition: all 700ms ease-in;
   }
 }
